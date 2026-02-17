@@ -1,0 +1,674 @@
+nohup: ignoring input
+### Dataset statistics ###
+[L1 Distance]    Min: 0.00
+[L1 Distance]    Max: 57.00
+[Cosine Sim]     Min: 0.00
+[Cosine Sim]     Max: 1.00
+Average number of active bits 18.17
+------------------------------
+Conflict Group: [31, 708, 736]
+  -> Node 31 is cited by (0): []
+  -> Node 708 is cited by (0): []
+  -> Node 736 is cited by (0): []
+  => MERGE ACTION: Survivor is 31 (most cited: 0 refs)
+------------------------------
+Conflict Group: [44, 116, 225, 760]
+  -> Node 44 is cited by (0): []
+  -> Node 116 is cited by (0): []
+  -> Node 225 is cited by (0): []
+  -> Node 760 is cited by (0): []
+  => MERGE ACTION: Survivor is 44 (most cited: 0 refs)
+------------------------------
+Conflict Group: [49, 222]
+  -> Node 49 is cited by (0): []
+  -> Node 222 is cited by (0): []
+  => MERGE ACTION: Survivor is 49 (most cited: 0 refs)
+------------------------------
+Conflict Group: [823, 1318, 1547]
+  -> Node 823 is cited by (0): []
+  -> Node 1318 is cited by (0): []
+  -> Node 1547 is cited by (0): []
+  => MERGE ACTION: Survivor is 823 (most cited: 0 refs)
+------------------------------
+Conflict Group: [856, 1070, 1205]
+  -> Node 856 is cited by (0): []
+  -> Node 1070 is cited by (0): []
+  -> Node 1205 is cited by (0): []
+  => MERGE ACTION: Survivor is 856 (most cited: 0 refs)
+------------------------------
+Conflict Group: [1049, 1071]
+  -> Node 1049 is cited by (0): []
+  -> Node 1071 is cited by (0): []
+  => MERGE ACTION: Survivor is 1049 (most cited: 0 refs)
+------------------------------
+Conflict Group: [1783, 2682]
+  -> Node 1783 is cited by (0): []
+  -> Node 2682 is cited by (0): []
+  => MERGE ACTION: Survivor is 1783 (most cited: 0 refs)
+------------------------------
+Conflict Group: [1973, 2446]
+  -> Node 1973 is cited by (0): []
+  -> Node 2446 is cited by (0): []
+  => MERGE ACTION: Survivor is 1973 (most cited: 0 refs)
+------------------------------
+Conflict Group: [1974, 2072]
+  -> Node 1974 is cited by (0): []
+  -> Node 2072 is cited by (0): []
+  => MERGE ACTION: Survivor is 1974 (most cited: 0 refs)
+------------------------------
+Conflict Group: [2150, 2183]
+  -> Node 2150 is cited by (2): [np.int64(1192), np.int64(2183)]
+  -> Node 2183 is cited by (0): []
+  => MERGE ACTION: Survivor is 2150 (most cited: 2 refs)
+------------------------------
+Conflict Group: [2413, 2414]
+  -> Node 2413 is cited by (0): []
+  -> Node 2414 is cited by (0): []
+  => MERGE ACTION: Survivor is 2413 (most cited: 0 refs)
+
+Nodes to remove: 16
+Cleaned Stats:
+ -> Old Nodes: 2708 => New Nodes: 2692
+ -> New Features Shape: (2692, 1433)
+ -> New Edges Shape: (5376, 2)
+CORA Graph Structure: 2692 nodes, 5376 edges
+Cycles detected => Graph is not a DAG.
+Removing cycles...
+[(255, 14, 'forward'), (14, 255, 'forward')]
+[(162, 187, 'forward'), (187, 128, 'forward'), (128, 1717, 'forward'), (1717, 162, 'forward')]
+[(162, 187, 'forward'), (187, 128, 'forward'), (128, 162, 'forward')]
+[(162, 187, 'forward'), (187, 162, 'forward')]
+[(162, 187, 'forward'), (187, 42, 'forward'), (42, 162, 'forward')]
+[(187, 42, 'forward'), (42, 187, 'forward')]
+[(562, 462, 'forward'), (462, 562, 'forward')]
+[(248, 1495, 'forward'), (1495, 248, 'forward')]
+[(755, 40, 'forward'), (40, 755, 'forward')]
+[(637, 109, 'forward'), (109, 637, 'forward')]
+[(669, 2029, 'forward'), (2029, 2347, 'forward'), (2347, 669, 'forward')]
+[(2029, 2347, 'forward'), (2347, 2029, 'forward')]
+[(546, 669, 'forward'), (669, 2029, 'forward'), (2029, 2347, 'forward'), (2347, 571, 'forward'), (571, 546, 'forward')]
+[(669, 2029, 'forward'), (2029, 2347, 'forward'), (2347, 571, 'forward'), (571, 669, 'forward')]
+[(546, 588, 'forward'), (588, 546, 'forward')]
+[(191, 417, 'forward'), (417, 191, 'forward')]
+[(191, 417, 'forward'), (417, 192, 'forward'), (192, 191, 'forward')]
+[(417, 2201, 'forward'), (2201, 417, 'forward')]
+[(740, 1875, 'forward'), (1875, 740, 'forward')]
+[(516, 2534, 'forward'), (2534, 516, 'forward')]
+[(1231, 1232, 'forward'), (1232, 1231, 'forward')]
+[(84, 1231, 'forward'), (1231, 84, 'forward')]
+[(84, 344, 'forward'), (344, 84, 'forward')]
+[(41, 1702, 'forward'), (1702, 41, 'forward')]
+[(1702, 1991, 'forward'), (1991, 2141, 'forward'), (2141, 1702, 'forward')]
+[(1702, 1991, 'forward'), (1991, 1702, 'forward')]
+[(1702, 1991, 'forward'), (1991, 2495, 'forward'), (2495, 1702, 'forward')]
+[(1702, 1705, 'forward'), (1705, 1702, 'forward')]
+[(137, 413, 'forward'), (413, 136, 'forward'), (136, 137, 'forward')]
+[(137, 413, 'forward'), (413, 137, 'forward')]
+[(99, 2563, 'forward'), (2563, 99, 'forward')]
+[(99, 2563, 'forward'), (2563, 2664, 'forward'), (2664, 99, 'forward')]
+[(137, 743, 'forward'), (743, 137, 'forward')]
+[(743, 1922, 'forward'), (1922, 743, 'forward')]
+[(568, 1751, 'forward'), (1751, 568, 'forward')]
+[(568, 1751, 'forward'), (1751, 2480, 'forward'), (2480, 568, 'forward')]
+[(19, 568, 'forward'), (568, 19, 'forward')]
+[(20, 264, 'forward'), (264, 20, 'forward')]
+[(608, 2365, 'forward'), (2365, 608, 'forward')]
+[(608, 1924, 'forward'), (1924, 608, 'forward')]
+[(2484, 356, 'forward'), (356, 2484, 'forward')]
+[(375, 1529, 'forward'), (1529, 635, 'forward'), (635, 2396, 'forward'), (2396, 1633, 'forward'), (1633, 375, 'forward')]
+[(1281, 375, 'forward'), (375, 1529, 'forward'), (1529, 635, 'forward'), (635, 2396, 'forward'), (2396, 1633, 'forward'), (1633, 1281, 'forward')]
+[(1633, 2409, 'forward'), (2409, 1633, 'forward')]
+[(1529, 635, 'forward'), (635, 2396, 'forward'), (2396, 2528, 'forward'), (2528, 135, 'forward'), (135, 1529, 'forward')]
+[(980, 2601, 'forward'), (2601, 980, 'forward')]
+[(1227, 1218, 'forward'), (1218, 1227, 'forward')]
+[(1582, 1108, 'forward'), (1108, 1582, 'forward')]
+[(247, 107, 'forward'), (107, 247, 'forward')]
+[(1690, 826, 'forward'), (826, 1690, 'forward')]
+[(33, 1690, 'forward'), (1690, 33, 'forward')]
+[(556, 166, 'forward'), (166, 556, 'forward')]
+[(535, 2153, 'forward'), (2153, 535, 'forward')]
+[(218, 840, 'forward'), (840, 218, 'forward')]
+[(632, 657, 'forward'), (657, 632, 'forward')]
+[(683, 427, 'forward'), (427, 683, 'forward')]
+[(46, 298, 'forward'), (298, 235, 'forward'), (235, 46, 'forward')]
+[(1804, 250, 'forward'), (250, 1804, 'forward')]
+[(1113, 1334, 'forward'), (1334, 1040, 'forward'), (1040, 1113, 'forward')]
+[(1334, 1041, 'forward'), (1041, 1334, 'forward')]
+[(797, 1429, 'forward'), (1429, 797, 'forward')]
+[(573, 1699, 'forward'), (1699, 573, 'forward')]
+[(59, 567, 'forward'), (567, 59, 'forward')]
+[(62, 420, 'forward'), (420, 62, 'forward')]
+[(420, 554, 'forward'), (554, 420, 'forward')]
+[(64, 281, 'forward'), (281, 64, 'forward')]
+[(1789, 1984, 'forward'), (1984, 1789, 'forward')]
+[(464, 492, 'forward'), (492, 464, 'forward')]
+[(461, 570, 'forward'), (570, 461, 'forward')]
+[(725, 464, 'forward'), (464, 725, 'forward')]
+[(72, 765, 'forward'), (765, 72, 'forward')]
+[(72, 765, 'forward'), (765, 201, 'forward'), (201, 72, 'forward')]
+[(201, 203, 'forward'), (203, 201, 'forward')]
+[(203, 2397, 'forward'), (2397, 203, 'forward')]
+[(416, 257, 'forward'), (257, 416, 'forward')]
+[(904, 896, 'forward'), (896, 904, 'forward')]
+[(896, 958, 'forward'), (958, 896, 'forward')]
+[(904, 896, 'forward'), (896, 958, 'forward'), (958, 904, 'forward')]
+[(633, 758, 'forward'), (758, 633, 'forward')]
+[(1325, 1502, 'forward'), (1502, 1325, 'forward')]
+[(425, 299, 'forward'), (299, 425, 'forward')]
+[(321, 323, 'forward'), (323, 321, 'forward')]
+[(184, 386, 'forward'), (386, 184, 'forward')]
+[(585, 696, 'forward'), (696, 585, 'forward')]
+[(1245, 924, 'forward'), (924, 1245, 'forward')]
+[(2367, 2546, 'forward'), (2546, 2367, 'forward')]
+[(2367, 1827, 'forward'), (1827, 2367, 'forward')]
+[(265, 613, 'forward'), (613, 2035, 'forward'), (2035, 265, 'forward')]
+[(265, 613, 'forward'), (613, 265, 'forward')]
+[(262, 753, 'forward'), (753, 262, 'forward')]
+[(269, 908, 'forward'), (908, 269, 'forward')]
+[(273, 1982, 'forward'), (1982, 273, 'forward')]
+[(1259, 782, 'forward'), (782, 1259, 'forward')]
+[(589, 586, 'forward'), (586, 589, 'forward')]
+[(589, 586, 'forward'), (586, 1499, 'forward'), (1499, 589, 'forward')]
+[(2207, 1399, 'forward'), (1399, 2207, 'forward')]
+[(2294, 1928, 'forward'), (1928, 2294, 'forward')]
+[(1631, 1465, 'forward'), (1465, 1631, 'forward')]
+[(338, 705, 'forward'), (705, 338, 'forward')]
+[(1513, 874, 'forward'), (874, 1513, 'forward')]
+[(2262, 2255, 'forward'), (2255, 2262, 'forward')]
+[(385, 2575, 'forward'), (2575, 385, 'forward')]
+[(396, 1241, 'forward'), (1241, 396, 'forward')]
+[(396, 1242, 'forward'), (1242, 396, 'forward')]
+[(404, 1289, 'forward'), (1289, 404, 'forward')]
+[(627, 444, 'forward'), (444, 627, 'forward')]
+[(1063, 1674, 'forward'), (1674, 1063, 'forward')]
+[(504, 2378, 'forward'), (2378, 504, 'forward')]
+[(1409, 1539, 'forward'), (1539, 1409, 'forward')]
+[(1539, 1229, 'forward'), (1229, 1539, 'forward')]
+[(773, 539, 'forward'), (539, 773, 'forward')]
+[(681, 1415, 'forward'), (1415, 681, 'forward')]
+[(1206, 818, 'forward'), (818, 1206, 'forward')]
+[(1206, 819, 'forward'), (819, 1206, 'forward')]
+[(2360, 2361, 'forward'), (2361, 2360, 'forward')]
+[(841, 842, 'forward'), (842, 841, 'forward')]
+[(1353, 2638, 'forward'), (2638, 1353, 'forward')]
+[(998, 997, 'forward'), (997, 998, 'forward')]
+[(784, 1500, 'forward'), (1500, 784, 'forward')]
+[(806, 1355, 'forward'), (1355, 806, 'forward')]
+[(806, 1355, 'forward'), (1355, 808, 'forward'), (808, 1072, 'forward'), (1072, 806, 'forward')]
+[(811, 812, 'forward'), (812, 811, 'forward')]
+[(1243, 1475, 'forward'), (1475, 1243, 'forward')]
+[(828, 1803, 'forward'), (1803, 828, 'forward')]
+[(1323, 1457, 'forward'), (1457, 1323, 'forward')]
+[(989, 1679, 'forward'), (1679, 989, 'forward')]
+[(1260, 1303, 'forward'), (1303, 1260, 'forward')]
+[(1256, 1714, 'forward'), (1714, 1256, 'forward')]
+[(933, 1233, 'forward'), (1233, 933, 'forward')]
+[(1272, 1273, 'forward'), (1273, 1272, 'forward')]
+[(984, 1763, 'forward'), (1763, 984, 'forward')]
+[(1012, 1134, 'forward'), (1134, 1012, 'forward')]
+[(1058, 1926, 'forward'), (1926, 1058, 'forward')]
+[(2483, 2309, 'forward'), (2309, 2483, 'forward')]
+[(2485, 2483, 'forward'), (2483, 2309, 'forward'), (2309, 2485, 'forward')]
+[(2485, 2483, 'forward'), (2483, 2485, 'forward')]
+[(1068, 1070, 'forward'), (1070, 1068, 'forward')]
+[(1494, 1299, 'forward'), (1299, 1494, 'forward')]
+[(1602, 1603, 'forward'), (1603, 1602, 'forward')]
+[(1214, 1596, 'forward'), (1596, 1214, 'forward')]
+[(1348, 1650, 'forward'), (1650, 1348, 'forward')]
+[(1556, 1555, 'forward'), (1555, 1556, 'forward')]
+[(1620, 2317, 'forward'), (2317, 1620, 'forward')]
+[(1670, 1671, 'forward'), (1671, 1670, 'forward')]
+[(1782, 2166, 'forward'), (2166, 1782, 'forward')]
+[(1782, 2166, 'forward'), (2166, 2070, 'forward'), (2070, 1782, 'forward')]
+[(1784, 1782, 'forward'), (1782, 2166, 'forward'), (2166, 2070, 'forward'), (2070, 1784, 'forward')]
+[(1764, 1784, 'forward'), (1784, 1782, 'forward'), (1782, 2166, 'forward'), (2166, 2070, 'forward'), (2070, 1764, 'forward')]
+[(1784, 1782, 'forward'), (1782, 2166, 'forward'), (2166, 1784, 'forward')]
+[(1817, 2007, 'forward'), (2007, 1817, 'forward')]
+[(1821, 1825, 'forward'), (1825, 1821, 'forward')]
+[(1835, 1916, 'forward'), (1916, 1835, 'forward')]
+[(1843, 2286, 'forward'), (2286, 1843, 'forward')]
+[(1843, 1844, 'forward'), (1844, 1843, 'forward')]
+[(1851, 1953, 'forward'), (1953, 1851, 'forward')]
+[(1879, 2028, 'forward'), (2028, 1879, 'forward')]
+[(1910, 2389, 'forward'), (2389, 1910, 'forward')]
+[(1913, 2314, 'forward'), (2314, 1913, 'forward')]
+[(2314, 2004, 'forward'), (2004, 2314, 'forward')]
+[(2177, 2176, 'forward'), (2176, 2177, 'forward')]
+[(1964, 2640, 'forward'), (2640, 1964, 'forward')]
+[(1988, 1992, 'forward'), (1992, 1988, 'forward')]
+[(1997, 2011, 'forward'), (2011, 1997, 'forward')]
+[(2042, 2669, 'forward'), (2669, 2042, 'forward')]
+[(2124, 2136, 'forward'), (2136, 2124, 'forward')]
+[(2129, 2404, 'forward'), (2404, 2129, 'forward')]
+[(2161, 2191, 'forward'), (2191, 2161, 'forward')]
+[(2173, 2308, 'forward'), (2308, 2173, 'forward')]
+[(2190, 2392, 'forward'), (2392, 2384, 'forward'), (2384, 2190, 'forward')]
+[(2223, 2249, 'forward'), (2249, 2223, 'forward')]
+[(2382, 2650, 'forward'), (2650, 2382, 'forward')]
+[(2403, 2517, 'forward'), (2517, 2403, 'forward')]
+[(2628, 2631, 'forward'), (2631, 2628, 'forward')]
+Cycles removed. New edge count: 5203
+
+Created 5 tasks with block size 539.
+
+--- Task Analysis ---
+Task 0: 539 nodes.
+  -> edges to past:       0
+  -> edges to future:     0
+  -> Internal edges:      739
+Task 1: 539 nodes.
+  -> edges to past:       653
+  -> edges to future:     0
+  -> Internal edges:      135
+Task 2: 539 nodes.
+  -> edges to past:       951
+  -> edges to future:     0
+  -> Internal edges:      0
+Task 3: 539 nodes.
+  -> edges to past:       1338
+  -> edges to future:     0
+  -> Internal edges:      0
+Task 4: 536 nodes.
+  -> edges to past:       1387
+  -> edges to future:     0
+  -> Internal edges:      0
+
+--- Task Connectivity Matrix ---
+Row: Source Task | Column: Target Task
+        T0      T1      T2      T3      T4      
+------------------------------------------------
+Task 0 | 739     -       -       -       -       
+Task 1 | 653     135     -       -       -       
+Task 2 | 548     403     -       -       -       
+Task 3 | 622     425     291     -       -       
+Task 4 | 759     292     336     -       -       
+------------------------------------------------
+Total Edges in Matrix: 5203
+
+Summary:
+valid edges (point to past or internal nodes): 5203
+invalid edges (point to future nodes):         0
+Total Edges in Cleaned DAG:                    5203
+Removed edges (cycles):                        173
+Task 0:
+  -> Nodes: 539
+  -> Edges Total: 1448 (Real: 739 + Start: 539 + Stop: 170)
+Task 1:
+  -> Nodes: 539
+  -> Edges Total: 1505 (Real: 788 + Start: 539 + Stop: 178)
+Task 2:
+  -> Nodes: 539
+  -> Edges Total: 1628 (Real: 951 + Start: 539 + Stop: 138)
+Task 3:
+  -> Nodes: 539
+  -> Edges Total: 1877 (Real: 1338 + Start: 539 + Stop: 0)
+Task 4:
+  -> Nodes: 536
+  -> Edges Total: 1923 (Real: 1387 + Start: 536 + Stop: 0)
+
+===== Train task 0 =====
+
+--- CoraDatasetV2 ---
+  539 nodes (papers)
+  1433-dimensional features
+  909 directed edges (citations)
+  539 starting edges (super source node linked with all the nodes)
+  170 terminal nodes (linked with a 0-feature vector)
+  1448 total edges
+  150 samples per edge
+
+--- CoraDatasetV2 ---
+  539 nodes (papers)
+  1433-dimensional features
+  909 directed edges (citations)
+  539 starting edges (super source node linked with all the nodes)
+  170 terminal nodes (linked with a 0-feature vector)
+  1448 total edges
+  25 samples per edge
+
+
+   Epoch 1/105 - 27.3s
+     Train Loss: 81.216
+     Val Loss:   50.762
+     LR: 0.0001000
+   Epoch 10/105 - 26.3s
+     Train Loss: 23.140
+     Val Loss:   22.741
+     LR: 0.0001000
+   Epoch 20/105 - 26.1s
+     Train Loss: 20.069
+     Val Loss:   20.634
+     LR: 0.0001000
+   Epoch 30/105 - 26.9s
+     Train Loss: 18.829
+     Val Loss:   18.368
+     LR: 0.0001000
+   Epoch 40/105 - 27.0s
+     Train Loss: 18.139
+     Val Loss:   17.843
+     LR: 0.0001000
+   Epoch 50/105 - 26.9s
+     Train Loss: 17.557
+     Val Loss:   17.448
+     LR: 0.0001000
+   Epoch 60/105 - 27.1s
+     Train Loss: 17.272
+     Val Loss:   16.766
+     LR: 0.0001000
+   Epoch 70/105 - 26.9s
+     Train Loss: 16.540
+     Val Loss:   16.002
+     LR: 0.0000500
+   Epoch 80/105 - 27.1s
+     Train Loss: 16.136
+     Val Loss:   16.095
+     LR: 0.0000500
+   Epoch 90/105 - 25.9s
+     Train Loss: 15.969
+     Val Loss:   15.475
+     LR: 0.0000500
+   Epoch 100/105 - 24.1s
+     Train Loss: 15.570
+     Val Loss:   15.248
+     LR: 0.0000250
+   Epoch 105/105 - 25.7s
+     Train Loss: 15.478
+     Val Loss:   15.427
+     LR: 0.0000250
+/extra/flollato/train_diffusion_cora_incremental_train1_ewc.py:1205: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(best_model_path))
+Computing Fischer weights for Task 0...
+
+===== Train task 1 =====
+
+--- CoraDatasetV2 ---
+  539 nodes (papers)
+  1433-dimensional features
+  966 directed edges (citations)
+  539 starting edges (super source node linked with all the nodes)
+  178 terminal nodes (linked with a 0-feature vector)
+  1505 total edges
+  150 samples per edge
+
+--- CoraDatasetV2 ---
+  539 nodes (papers)
+  1433-dimensional features
+  966 directed edges (citations)
+  539 starting edges (super source node linked with all the nodes)
+  178 terminal nodes (linked with a 0-feature vector)
+  1505 total edges
+  25 samples per edge
+
+
+   Epoch 1/105 - 39.0s
+     Train Loss: 40.753
+     Val Loss:   34.431
+     LR: 0.0001000
+   Epoch 10/105 - 39.0s
+     Train Loss: 21.364
+     Val Loss:   20.539
+     LR: 0.0001000
+   Epoch 20/105 - 38.8s
+     Train Loss: 19.291
+     Val Loss:   18.733
+     LR: 0.0001000
+   Epoch 30/105 - 38.8s
+     Train Loss: 18.459
+     Val Loss:   17.934
+     LR: 0.0001000
+   Epoch 40/105 - 39.1s
+     Train Loss: 18.042
+     Val Loss:   17.447
+     LR: 0.0001000
+   Epoch 50/105 - 39.0s
+     Train Loss: 17.701
+     Val Loss:   17.176
+     LR: 0.0001000
+   Epoch 60/105 - 39.0s
+     Train Loss: 17.447
+     Val Loss:   17.126
+     LR: 0.0001000
+   Epoch 70/105 - 38.4s
+     Train Loss: 16.719
+     Val Loss:   16.312
+     LR: 0.0000500
+   Epoch 80/105 - 38.2s
+     Train Loss: 16.279
+     Val Loss:   15.900
+     LR: 0.0000250
+   Epoch 90/105 - 39.3s
+     Train Loss: 16.075
+     Val Loss:   15.820
+     LR: 0.0000125
+   Epoch 100/105 - 39.7s
+     Train Loss: 16.077
+     Val Loss:   15.681
+     LR: 0.0000125
+   Epoch 105/105 - 39.1s
+     Train Loss: 15.965
+     Val Loss:   15.781
+     LR: 0.0000125
+/extra/flollato/train_diffusion_cora_incremental_train1_ewc.py:1205: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(best_model_path))
+Computing Fischer weights for Task 1...
+
+===== Train task 2 =====
+
+--- CoraDatasetV2 ---
+  539 nodes (papers)
+  1433-dimensional features
+  1089 directed edges (citations)
+  539 starting edges (super source node linked with all the nodes)
+  138 terminal nodes (linked with a 0-feature vector)
+  1628 total edges
+  150 samples per edge
+
+--- CoraDatasetV2 ---
+  539 nodes (papers)
+  1433-dimensional features
+  1089 directed edges (citations)
+  539 starting edges (super source node linked with all the nodes)
+  138 terminal nodes (linked with a 0-feature vector)
+  1628 total edges
+  25 samples per edge
+
+
+   Epoch 1/105 - 54.2s
+     Train Loss: 38.408
+     Val Loss:   31.505
+     LR: 0.0001000
+   Epoch 10/105 - 54.3s
+     Train Loss: 20.983
+     Val Loss:   20.126
+     LR: 0.0001000
+   Epoch 20/105 - 53.6s
+     Train Loss: 18.995
+     Val Loss:   18.580
+     LR: 0.0001000
+   Epoch 30/105 - 54.4s
+     Train Loss: 18.243
+     Val Loss:   17.730
+     LR: 0.0001000
+   Epoch 40/105 - 54.4s
+     Train Loss: 17.769
+     Val Loss:   17.467
+     LR: 0.0001000
+   Epoch 50/105 - 54.3s
+     Train Loss: 17.410
+     Val Loss:   16.961
+     LR: 0.0001000
+   Epoch 60/105 - 54.9s
+     Train Loss: 17.154
+     Val Loss:   16.934
+     LR: 0.0001000
+   Epoch 70/105 - 54.7s
+     Train Loss: 17.135
+     Val Loss:   16.602
+     LR: 0.0001000
+   Epoch 80/105 - 54.9s
+     Train Loss: 16.955
+     Val Loss:   16.444
+     LR: 0.0001000
+   Epoch 90/105 - 54.2s
+     Train Loss: 16.448
+     Val Loss:   16.149
+     LR: 0.0000500
+   Epoch 100/105 - 53.6s
+     Train Loss: 16.070
+     Val Loss:   15.740
+     LR: 0.0000250
+   Epoch 105/105 - 54.9s
+     Train Loss: 16.020
+     Val Loss:   15.422
+     LR: 0.0000250
+/extra/flollato/train_diffusion_cora_incremental_train1_ewc.py:1205: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(best_model_path))
+Computing Fischer weights for Task 2...
+
+===== Train task 3 =====
+
+--- CoraDatasetV2 ---
+  539 nodes (papers)
+  1433-dimensional features
+  1338 directed edges (citations)
+  539 starting edges (super source node linked with all the nodes)
+  0 terminal nodes (linked with a 0-feature vector)
+  1877 total edges
+  150 samples per edge
+
+--- CoraDatasetV2 ---
+  539 nodes (papers)
+  1433-dimensional features
+  1338 directed edges (citations)
+  539 starting edges (super source node linked with all the nodes)
+  0 terminal nodes (linked with a 0-feature vector)
+  1877 total edges
+  25 samples per edge
+
+
+   Epoch 1/105 - 75.9s
+     Train Loss: 40.659
+     Val Loss:   32.127
+     LR: 0.0001000
+   Epoch 10/105 - 76.8s
+     Train Loss: 20.721
+     Val Loss:   20.060
+     LR: 0.0001000
+   Epoch 20/105 - 76.7s
+     Train Loss: 18.907
+     Val Loss:   18.544
+     LR: 0.0001000
+   Epoch 30/105 - 76.6s
+     Train Loss: 18.220
+     Val Loss:   17.709
+     LR: 0.0001000
+   Epoch 40/105 - 75.9s
+     Train Loss: 17.708
+     Val Loss:   17.183
+     LR: 0.0001000
+   Epoch 50/105 - 73.7s
+     Train Loss: 17.100
+     Val Loss:   16.533
+     LR: 0.0000500
+   Epoch 60/105 - 76.9s
+     Train Loss: 16.744
+     Val Loss:   16.141
+     LR: 0.0000500
+   Epoch 70/105 - 77.3s
+     Train Loss: 16.641
+     Val Loss:   16.232
+     LR: 0.0000500
+   Epoch 80/105 - 77.0s
+     Train Loss: 16.507
+     Val Loss:   16.130
+     LR: 0.0000500
+   Epoch 90/105 - 76.2s
+     Train Loss: 16.188
+     Val Loss:   15.670
+     LR: 0.0000250
+   Epoch 100/105 - 77.1s
+     Train Loss: 16.078
+     Val Loss:   15.705
+     LR: 0.0000250
+   Epoch 105/105 - 76.2s
+     Train Loss: 15.815
+     Val Loss:   15.454
+     LR: 0.0000125
+/extra/flollato/train_diffusion_cora_incremental_train1_ewc.py:1205: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(best_model_path))
+Computing Fischer weights for Task 3...
+
+===== Train task 4 =====
+
+--- CoraDatasetV2 ---
+  536 nodes (papers)
+  1433-dimensional features
+  1387 directed edges (citations)
+  536 starting edges (super source node linked with all the nodes)
+  0 terminal nodes (linked with a 0-feature vector)
+  1923 total edges
+  150 samples per edge
+
+--- CoraDatasetV2 ---
+  536 nodes (papers)
+  1433-dimensional features
+  1387 directed edges (citations)
+  536 starting edges (super source node linked with all the nodes)
+  0 terminal nodes (linked with a 0-feature vector)
+  1923 total edges
+  25 samples per edge
+
+
+   Epoch 1/105 - 92.8s
+     Train Loss: 40.892
+     Val Loss:   31.796
+     LR: 0.0001000
+   Epoch 10/105 - 92.2s
+     Train Loss: 20.640
+     Val Loss:   19.985
+     LR: 0.0001000
+   Epoch 20/105 - 93.4s
+     Train Loss: 18.939
+     Val Loss:   18.492
+     LR: 0.0001000
+   Epoch 30/105 - 92.6s
+     Train Loss: 18.294
+     Val Loss:   17.900
+     LR: 0.0001000
+   Epoch 40/105 - 51.2s
+     Train Loss: 17.944
+     Val Loss:   17.541
+     LR: 0.0001000
+   Epoch 50/105 - 52.0s
+     Train Loss: 17.629
+     Val Loss:   17.255
+     LR: 0.0001000
+   Epoch 60/105 - 53.2s
+     Train Loss: 17.503
+     Val Loss:   16.905
+     LR: 0.0001000
+   Epoch 70/105 - 53.9s
+     Train Loss: 17.394
+     Val Loss:   16.750
+     LR: 0.0001000
+   Epoch 80/105 - 53.6s
+     Train Loss: 16.857
+     Val Loss:   16.371
+     LR: 0.0000500
+   Epoch 90/105 - 51.1s
+     Train Loss: 16.516
+     Val Loss:   16.171
+     LR: 0.0000500
+   Epoch 100/105 - 51.9s
+     Train Loss: 16.419
+     Val Loss:   16.119
+     LR: 0.0000500
+   Epoch 105/105 - 51.7s
+     Train Loss: 16.362
+     Val Loss:   16.006
+     LR: 0.0000500
+/extra/flollato/train_diffusion_cora_incremental_train1_ewc.py:1205: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(best_model_path))
+Computing Fischer weights for Task 4...
+
+  Incremental training complete.
